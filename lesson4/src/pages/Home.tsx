@@ -8,7 +8,7 @@ import Search from "../components/search";
 import { ITrip } from "../interfaces";
 import { useState } from "react";
 import { getTrips } from "../api/trips.api";
-// import Item from "../components/item";
+//import Item from "../components/item";
 
 function Home() {
   const [trips, setTrips] = useState<ITrip[]>([]);

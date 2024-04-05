@@ -7,21 +7,18 @@ type SearchForm = {
   fromStation: string;
   startTime_gte: string;
 };
+
 const Search = (props: { onSearch: (query: string) => void }) => {
   const navi = useNavigate();
 
-  const {
-    register,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    formState: { errors },
-    handleSubmit,
-  } = useForm<SearchForm>();
+  const { register, handleSubmit } = useForm<SearchForm>();
 
   const onSubmit: SubmitHandler<SearchForm> = async (data) => {
     const query = new URLSearchParams(data);
     props.onSearch(query.toString());
-    navi("/detail");
+    navi(`/detail?${query.toString()}`); // Đảm bảo thêm query string vào đường dẫn khi điều hướng
   };
+
   return (
     <form
       className="flex w-[1040px]  mr-auto ml-[271px] py-5 "

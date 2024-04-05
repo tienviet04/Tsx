@@ -7,7 +7,7 @@ export interface ITrip {
     seats: number
     toStation: string,
     busHouse?: IBusHouse,
-    startTime: string,
+    
     station: string
 }
 

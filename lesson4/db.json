@@ -1,0 +1,144 @@
+{
+  "trips": [
+    {
+      "busHouseId": "3",
+      "startTime": "2024-04-03T12:15",
+      "fromStation": "Ninh Bình",
+      "toStation": "Nghệ An",
+      "station": "Mỹ Đình",
+      "seats": "12",
+      "price": "200000",
+      "id": "3"
+    },
+    {
+      "id": "7a0e",
+      "busHouseId": "1",
+      "startTime": "2024-04-05T18:14",
+      "seats": "22",
+      "price": "123456",
+      "station": "Ninh Bình",
+      "fromStation": "Ninh Bình",
+      "toStation": "Ninh Bình"
+    },
+    {
+      "id": "ec2c",
+      "busHouseId": "2",
+      "startTime": "2024-04-05T17:35",
+      "seats": "22",
+      "price": "123456",
+      "station": "Ninh Bình",
+      "fromStation": "Ninh Bình",
+      "toStation": "Ninh Bình"
+    },
+    {
+      "id": "cc6c",
+      "busHouseId": "2",
+      "startTime": "2024-04-05",
+      "seats": "22",
+      "price": "123456",
+      "station": "Ninh Bình",
+      "fromStation": "Ninh Bình",
+      "toStation": "Ninh Bình"
+    },
+    {
+      "id": "3",
+      "busHouseId": "3",
+      "startTime": "2024-04-03",
+      "fromStation": "Hà Nội",
+      "toStation": "Nghệ An",
+      "station": "Mỹ Đình",
+      "seats": "20",
+      "price": "200000"
+    },
+    {
+      "id": "11d6",
+      "busHouseId": "3",
+      "startTime": "2024-04-04",
+      "seats": "22",
+      "price": "41234",
+      "station": "Nho quan",
+      "fromStation": "Nho quan",
+      "toStation": "Ninh Bình"
+    },
+    {
+      "id": "3f98",
+      "busHouseId": "2",
+      "startTime": "2024-04-05",
+      "seats": "20",
+      "price": "123456",
+      "station": "Nho quan",
+      "fromStation": "Nho Quan",
+      "toStation": "Ninh Bình"
+    }
+  ],
+  "stations": [
+    {
+      "id": "1",
+      "name": "Bến xe Mỹ Đình",
+      "province": "Hà Nội"
+    },
+    {
+      "id": "2",
+      "name": "Bến xe Giáp Bát",
+      "province": "Hà Nội"
+    },
+    {
+      "id": "3",
+      "name": "Bến Nho Quan",
+      "province": "Ninh Bình"
+    },
+    {
+      "id": "4",
+      "name": "Bến xe Ninh Bình",
+      "province": "Ninh Bình"
+    }
+  ],
+  "busHouses": [
+    {
+      "id": "1",
+      "name": "Hải Phòng Travel (Đất Cảng)",
+      "adress": "Hải Phòng",
+      "phone": "0987654321"
+    },
+    {
+      "id": "2",
+      "name": "TienViet Limousine",
+      "adress": "Nho Quan",
+      "phone": "0987654321"
+    },
+    {
+      "id": "3",
+      "name": "Nb bus(Ninh Bình)",
+      "adress": "Ninh Bình",
+      "phone": "0987654321"
+    }
+  ],
+  "users": [],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

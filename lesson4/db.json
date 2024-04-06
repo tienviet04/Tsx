@@ -38,7 +38,7 @@
       "price": "123456",
       "station": "Ninh Bình",
       "fromStation": "Ninh Bình",
-      "toStation": "Ninh Bình"
+      "toStation": "Ninh Bình"      
     },
     {
       "id": "3",
@@ -69,6 +69,16 @@
       "station": "Nho quan",
       "fromStation": "Nho Quan",
       "toStation": "Ninh Bình"
+    },
+    {
+      "id": "8eb4",
+      "busHouseId": "2",
+      "startTime": "2024-04-06",
+      "seats": "22",
+      "price": "123456",
+      "station": "Ninh Bình",
+      "fromStation": "Ninh Bình",
+      "toStation": "Hà Nội"
     }
   ],
   "stations": [

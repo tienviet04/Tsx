@@ -155,7 +155,7 @@ const UpdateTrip = () => {
           className="flex items-center justify-center py-4 px-7 focus:outline-none bg-white border rounded border-gray-400 mt-7 md:mt-14 hover:bg-gray-100  focus:ring-2 focus:ring-offset-2 focus:ring-gray-700"
         >
           <span className="text-sm font-medium text-center text-gray-800 capitalize">
-            Thêm mới chuyến xe
+            Sửa chuyến xe
           </span>
           <svg
             className="mt-1 ml-3"

@@ -28,7 +28,9 @@ function Home() {
           <Search onSearch={handleSearch} />
         </div>
       </div>
-      <BodyHome />
+      <div className="pt-12">
+        <BodyHome />
+      </div>
       <Index />
       <Body />
       <Footer />

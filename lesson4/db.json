@@ -1,20 +1,10 @@
 {
   "trips": [
     {
-      "busHouseId": "3",
-      "startTime": "2024-04-03T12:15",
-      "fromStation": "Ninh Bình",
-      "toStation": "Nghệ An",
-      "station": "Mỹ Đình",
-      "seats": "12",
-      "price": "200000",
-      "id": "3"
-    },
-    {
       "id": "7a0e",
-      "busHouseId": "1",
-      "startTime": "2024-04-06T18:14",
-      "seats": "22",
+      "busHouseId": "2",
+      "startTime": "2024-04-07T18:14",
+      "seats": "30",
       "price": "123456",
       "station": "Ninh Bình",
       "fromStation": "Ninh Bình",
@@ -99,6 +89,16 @@
       "station": "Ninh Bình",
       "fromStation": "Ninh Bình",
       "toStation": "Hải Phòng"
+    },
+    {
+      "id": "c911",
+      "busHouseId": "3",
+      "startTime": "2024-04-08T21:51",
+      "seats": "32",
+      "price": "600000",
+      "station": "Nho Quan",
+      "fromStation": "Nho Quan",
+      "toStation": "Ninh Bình"
     }
   ],
   "stations": [
@@ -146,7 +146,8 @@
   "users": [
     {
       "email": "tienviet@gmail.com",
-      "password": "tienviet"
+      "password": "tienviet",
+      "id": "489e"
     }
   ],
   "posts": [

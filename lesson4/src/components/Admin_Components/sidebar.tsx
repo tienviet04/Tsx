@@ -387,7 +387,7 @@ export default function SideBar() {
                         <div className="relative">
                           <img
                             className="rounded-full h-10 w-10 object-cover"
-                            src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/368639245_3575394952737571_1129703947512720476_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFgg4BFhgC3R7jkKYsgJFFI-cFEa2WNEdD5wURrZY0R0Df_-eRIqjmSj-4OUORuMWmMx1DtEUs90bGCW3aRoGe7&_nc_ohc=d9jfKoBUEkoAX-rEIxr&_nc_ht=scontent.fhan2-3.fna&oh=00_AfBMv_OtAHNmRF8HNEhjAWe8Y3ibBX9_dI-Aatu2vTrogg&oe=660AA37E"
+                            src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/352771974_3526492807627786_2060314001343997020_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGN0lYlhx_olVw2dXTQKMVAhcsNcRe5Mz-Fyw1xF7kzP0FdzF_qP4-f-XQ8pBNOi_ByTHLXmyo8C7mtVB3MRyui&_nc_ohc=1_ZefbAHgQYAb5jBHFs&_nc_ht=scontent.fhan14-1.fna&oh=00_AfB5UNn1wqcjBi76SAyQ4vw_Iit3IrUE0tCiy7FapEaJDw&oe=66186DAE"
                             alt="avatar"
                           />
                           <div className="w-2 h-2 rounded-full bg-green-400 border border-white absolute inset-0 mb-0 mr-0 m-auto" />

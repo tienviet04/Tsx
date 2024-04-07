@@ -63,7 +63,7 @@ const AddTrip = () => {
               Thời gian bắt đầu
             </label>
             <input
-              type="date"
+              type="datetime-local"
               {...register("startTime")}
               className="w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200"
             />

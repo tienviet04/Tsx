@@ -9,6 +9,7 @@ import { getBusHouses } from "./api/busHouse.trip";
 import Dashboard from "./pages/Admin/Dashboard";
 import { getTripById } from "./api/trips.api";
 import UpdateTrip from "./pages/Admin/Trips/update";
+import Login from "./pages/login";
 
 const routers = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const routers = createBrowserRouter([
   {
     path: "/detail",
     element: <Detail />,
+  },
+  {
+    path: "/signin",
+    element: <Login />,
   },
   {
     path: "/admin",

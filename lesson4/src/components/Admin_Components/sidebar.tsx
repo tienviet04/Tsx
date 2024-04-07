@@ -39,13 +39,18 @@ export default function SideBar() {
                     <rect x={14} y={14} width={6} height={6} rx={1} />
                   </svg>
 
-                  <span className="ml-2">Dashboard</span>
+                  <Link
+                    to={"/admin"}
+                    className="ml-2 xl:text-base md:text-2xl text-base"
+                  >
+                    Dashboard
+                  </Link>
                 </a>
               </li>
               <li className="pl-6 cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-4 mb-4 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                 <Link className="flex items-center" to="trips">
                   <i className="fa-solid fa-rotate-right"></i>
-                  <span className="ml-2">Lịch sử chuyến xe</span>
+                  <span className="ml-2">Danh sách chuyến xe</span>
                 </Link>
               </li>
               <li className="pl-6 cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mb-4 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
@@ -130,9 +135,12 @@ export default function SideBar() {
                             <rect x={14} y={14} width={6} height={6} rx={1} />
                           </svg>
                         </div>
-                        <span className="ml-2 xl:text-base md:text-2xl text-base">
+                        <Link
+                          to={"/admin"}
+                          className="ml-2 xl:text-base md:text-2xl text-base"
+                        >
                           Dashboard
-                        </span>
+                        </Link>
                       </div>
                     </li>
                     <li className="pl-6 cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-4 mb-4 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">

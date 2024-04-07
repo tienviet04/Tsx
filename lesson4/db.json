@@ -38,7 +38,7 @@
       "price": "123456",
       "station": "Ninh Bình",
       "fromStation": "Ninh Bình",
-      "toStation": "Ninh Bình"      
+      "toStation": "Ninh Bình"
     },
     {
       "id": "3",
@@ -79,6 +79,26 @@
       "station": "Ninh Bình",
       "fromStation": "Ninh Bình",
       "toStation": "Hà Nội"
+    },
+    {
+      "id": "2a51",
+      "busHouseId": "1",
+      "startTime": "2024-04-07",
+      "seats": "30",
+      "price": "300000",
+      "station": "Nho quan",
+      "fromStation": "Nho Quan",
+      "toStation": "Hà Nội"
+    },
+    {
+      "id": "41b3",
+      "busHouseId": "1",
+      "startTime": "2024-04-06T19:28",
+      "seats": "30",
+      "price": "123456",
+      "station": "Ninh Bình",
+      "fromStation": "Ninh Bình",
+      "toStation": "Hải Phòng"
     }
   ],
   "stations": [
@@ -123,7 +143,12 @@
       "phone": "0987654321"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "email": "tienviet@gmail.com",
+      "password": "tienviet"
+    }
+  ],
   "posts": [
     {
       "id": "1",

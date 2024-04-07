@@ -4,7 +4,7 @@ import { ITrip } from "../../../interfaces";
 import { Link } from "react-router-dom";
 
 const Trip = (props: { data: ITrip }) => {
-  const revalidate = useRevalidator();
+  const revali = useRevalidator();
 
   if (!props.data.busHouse) {
     return <div>NotFound.</div>;
@@ -15,8 +15,8 @@ const Trip = (props: { data: ITrip }) => {
       if (id) {
         const confirmation = window.confirm("Bạn có chắc chắn muốn xoá không?");
         if (confirmation) {
-          await deleteTrip(id);
-          revalidate.revalidate(); // Tự động cập nhật dữ liệu sau khi xoá
+          deleteTrip(id);
+          revali.revalidate(); // Tự động cập nhật dữ liệu sau khi xoá
         }
       }
     } catch {
